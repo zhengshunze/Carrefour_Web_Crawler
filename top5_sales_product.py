@@ -3,9 +3,6 @@ from __init__ import *
 
 class NewAsyncHTMLSession(AsyncHTMLSession):
     def run(self, *coros, urls=None):
-        """ Pass in all the coroutines you want to run, it will wrap each one
-            in a task, run it and wait for the result. Return a list with all
-            results, this is returned in the same order coros are passed in. """
         if urls:
             if isinstance(urls, list):
                 tasks = [
