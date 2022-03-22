@@ -9,5 +9,5 @@
 **前五項商品由高至低**
  - ***price_low_high.py*** \
 **前五項商品由低至高**
- - ***price_low_high.py*** \
+ - ***top5_sales_product.py*** \
 **與商品有關之前三名人氣熱銷**
